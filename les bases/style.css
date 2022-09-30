@@ -1,0 +1,157 @@
+body{
+    background-color: white;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+
+.soustitre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: black;
+    padding: 10px;
+    list-style-type: none;
+    border: 3px solid black;
+    margin-bottom: 0;
+    box-shadow: 0px 7px 22px 6px rgba(0,0,0,0.69);
+}
+
+a{
+    color: black;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+    list-style-type: none;
+    border: 2px solid black;
+    background-color: rgb(35, 35, 35);
+    height: 440px;
+}
+
+
+
+.logo {
+    position: absolute;
+    left: 700px; right: 100px; 
+    width: 120px;
+    height: 120px;
+}
+
+
+.montre { 
+    display: flex;
+    width:  450px;
+    height: 450px;
+    margin-left: 11%;
+}
+
+.finition {
+    display: flex;
+    margin-top: 12%;
+    margin-bottom: -17%;
+}
+
+
+
+h2      {color: black}
+
+.ligne25{color: black;}
+
+.ligne26{
+    font-weight: 700;
+    font-size: xx-large;
+    position: absolute;
+   left: 10%;
+    color: white;
+
+
+}
+
+
+
+.ligne27{
+    position: relative;
+    left: 15%; right: 40%; 
+    color: white;
+    text-align: justify;
+    top: 30%; left: 20%;
+    }
+
+.ligne32{
+    color: black;
+    
+    }
+
+#titre {
+    color: black;
+    background-color: white;
+    font-size: 80px; 
+    margin-top: 0;
+}
+
+
+
+
+
+.noir {
+    width: 29%;
+}
+.noir:hover{
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
+    }
+   
+
+.gold {
+    width: 23%;
+    margin-bottom: 3%;
+}    
+.gold:hover{
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
+    }
+
+
+.blanche {
+    width: 32%;
+    margin-bottom: -2%;
+
+}
+.blanche:hover{
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
+    }
+
+
+.watch {
+display: flex;
+justify-content: flex-end;
+width: 85%;
+margin-top: 5%;
+margin-bottom: 6%;
+margin-left: 25%;
+}
+
+footer {
+    padding: 0px;
+    list-style-type: none;
+    border: 3px solid black;
+    box-shadow: 0px 7px 22px 6px rgba(0,0,0,0.69);
+}
+
+.textefooter {
+    margin-top: 0.5%;
+    margin-left: 2%;
+}
+
+.textefooterr {
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    margin-left: 90%;
+}
